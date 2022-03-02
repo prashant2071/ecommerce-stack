@@ -1,0 +1,139 @@
+{
+  name: 'SequelizeDatabaseError',
+  parent: RequestError: Incorrect syntax near the keyword 'DEFAULT'.
+      at RequestTokenHandler.onErrorMessage (E:\javascript\Ecommerce\server\node_modules\tedious\lib\token\handler.js:360:21)
+      at Readable.<anonymous> (E:\javascript\Ecommerce\server\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:520:28)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9)
+      at Readable.push (node:internal/streams/readable:228:10)
+      at next (node:internal/streams/from:98:31)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'EREQUEST',
+    number: 156,
+    state: 1,
+    class: 15,
+    serverName: 'PRASHANT\\SQLEXPRESS',
+    procName: '',
+    lineNumber: 1,
+    sql: 'ALTER TABLE [products] ALTER COLUMN [flashsale] BIT DEFAULT 0;',
+    parameters: undefined
+  },
+  original: RequestError: Incorrect syntax near the keyword 'DEFAULT'.
+      at RequestTokenHandler.onErrorMessage (E:\javascript\Ecommerce\server\node_modules\tedious\lib\token\handler.js:360:21)
+      at Readable.<anonymous> (E:\javascript\Ecommerce\server\node_modules\tedious\lib\token\token-stream-parser.js:26:33)
+      at Readable.emit (node:events:520:28)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9)
+      at Readable.push (node:internal/streams/readable:228:10)
+      at next (node:internal/streams/from:98:31)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+    code: 'EREQUEST',
+    number: 156,
+    state: 1,
+    class: 15,
+    serverName: 'PRASHANT\\SQLEXPRESS',
+    procName: '',
+    lineNumber: 1,
+    sql: 'ALTER TABLE [products] ALTER COLUMN [flashsale] BIT DEFAULT 0;',
+    parameters: undefined
+  },
+  sql: 'ALTER TABLE [products] ALTER COLUMN [flashsale] BIT DEFAULT 0;',
+  parameters: {},
+  level: 'error',
+  message: "the error is database Incorrect syntax near the keyword 'DEFAULT'.",
+  stack: 'Error\n' +
+    '    at Query.run (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\dialects\\mssql\\query.js:99:25)\n' +
+    '    at E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\sequelize.js:313:28\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at async Function.sync (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\model.js:969:11)\n' +
+    '    at async Sequelize.sync (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\sequelize.js:377:9)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: RequestError: Timeout: Request failed to complete in 15000ms
+      at Connection.requestTimeout (E:\javascript\Ecommerce\server\node_modules\tedious\lib\connection.js:1296:21)
+      at Timeout._onTimeout (E:\javascript\Ecommerce\server\node_modules\tedious\lib\connection.js:1248:14)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    code: 'ETIMEOUT',
+    number: undefined,
+    state: undefined,
+    class: undefined,
+    serverName: undefined,
+    procName: undefined,
+    lineNumber: undefined,
+    sql: "EXEC sys.sp_helpindex @objname = N'[products]';",
+    parameters: undefined
+  },
+  original: RequestError: Timeout: Request failed to complete in 15000ms
+      at Connection.requestTimeout (E:\javascript\Ecommerce\server\node_modules\tedious\lib\connection.js:1296:21)
+      at Timeout._onTimeout (E:\javascript\Ecommerce\server\node_modules\tedious\lib\connection.js:1248:14)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    code: 'ETIMEOUT',
+    number: undefined,
+    state: undefined,
+    class: undefined,
+    serverName: undefined,
+    procName: undefined,
+    lineNumber: undefined,
+    sql: "EXEC sys.sp_helpindex @objname = N'[products]';",
+    parameters: undefined
+  },
+  sql: "EXEC sys.sp_helpindex @objname = N'[products]';",
+  parameters: {},
+  level: 'error',
+  message: 'the error is database Timeout: Request failed to complete in 15000ms',
+  stack: 'Error\n' +
+    '    at Query.run (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\dialects\\mssql\\query.js:99:25)\n' +
+    '    at E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\sequelize.js:313:28\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at async MSSqlQueryInterface.showIndex (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:243:12)\n' +
+    '    at async Function.sync (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\model.js:973:19)\n' +
+    '    at async Sequelize.sync (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\sequelize.js:377:9)'
+}
+{
+  name: 'SequelizeDatabaseError',
+  parent: RequestError: Timeout: Request failed to complete in 15000ms
+      at Connection.requestTimeout (E:\javascript\Ecommerce\server\node_modules\tedious\lib\connection.js:1296:21)
+      at Timeout._onTimeout (E:\javascript\Ecommerce\server\node_modules\tedious\lib\connection.js:1248:14)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    code: 'ETIMEOUT',
+    number: undefined,
+    state: undefined,
+    class: undefined,
+    serverName: undefined,
+    procName: undefined,
+    lineNumber: undefined,
+    sql: "EXEC sys.sp_helpindex @objname = N'[products]';",
+    parameters: undefined
+  },
+  original: RequestError: Timeout: Request failed to complete in 15000ms
+      at Connection.requestTimeout (E:\javascript\Ecommerce\server\node_modules\tedious\lib\connection.js:1296:21)
+      at Timeout._onTimeout (E:\javascript\Ecommerce\server\node_modules\tedious\lib\connection.js:1248:14)
+      at listOnTimeout (node:internal/timers:559:17)
+      at processTimers (node:internal/timers:502:7) {
+    code: 'ETIMEOUT',
+    number: undefined,
+    state: undefined,
+    class: undefined,
+    serverName: undefined,
+    procName: undefined,
+    lineNumber: undefined,
+    sql: "EXEC sys.sp_helpindex @objname = N'[products]';",
+    parameters: undefined
+  },
+  sql: "EXEC sys.sp_helpindex @objname = N'[products]';",
+  parameters: {},
+  level: 'error',
+  message: 'the error is database Timeout: Request failed to complete in 15000ms',
+  stack: 'Error\n' +
+    '    at Query.run (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\dialects\\mssql\\query.js:99:25)\n' +
+    '    at E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\sequelize.js:313:28\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n' +
+    '    at async MSSqlQueryInterface.showIndex (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:243:12)\n' +
+    '    at async Function.sync (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\model.js:973:19)\n' +
+    '    at async Sequelize.sync (E:\\javascript\\Ecommerce\\server\\node_modules\\sequelize\\lib\\sequelize.js:377:9)'
+}

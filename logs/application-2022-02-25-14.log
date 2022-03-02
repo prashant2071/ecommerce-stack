@@ -1,0 +1,24 @@
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080,
+  level: 'error'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080,
+  level: 'error'
+}
+{
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080,
+  level: 'error'
+}

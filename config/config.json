@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "prashant",
+    "password": "prashanta",
+    "database": "ecommercesql",
+    "host": "PRASHANT",
+    "dialect": "mssql"
+  },
+  "test": {
+    "username": "prashant",
+    "password": "prashanta",
+    "database": "ecommercesql",
+    "host": "PRASHANT",
+    "dialect": "mssql"
+  },
+  "production": {
+    "username": "prashant",
+    "password": "prashanta",
+    "database": "ecommercesql",
+    "host": "PRASHANT",
+    "dialect": "mssql"
+  }
+}
