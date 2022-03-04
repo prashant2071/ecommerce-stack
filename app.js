@@ -1,23 +1,22 @@
 const express =require('express');
-const logger = require('./config/logger');
 const app =express();
+const logger = require('./config/logger');
 const cors = require('cors');
 const morgan = require('morgan');
 const process= require('process')
-const route =require('./routes/apiRoute');
-require('./config/config.sql/database')
-
+const dotenv =require('dotenv');
+dotenv.config();
+const {TYPE} = require('./config/envCrediantials').DB;
 const {PORT}=require('./config/envCrediantials').SERVERPORT;
+(TYPE==='SQL')?require('./config/config.sql/database'):require('./config/config.nosql/database');
+const route =require('./routes/apiRoute');
+const mongoRoute =require('./routes/mongoapiRoute');
 
 
 app.use(cors()); 
 app.use(express.json());
 app.use(morgan('dev'));
-
-app.use('/api',route)
-
-
-
+(TYPE==='SLQ')?app.use('/api',route):app.use('/api',mongoRoute)
 
 
 

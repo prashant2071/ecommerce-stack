@@ -1,6 +1,3 @@
-const dotenv =require('dotenv');
-dotenv.config();
-
 module.exports.SERVERPORT={
     PORT:process.env.PORT
 }
@@ -10,5 +7,6 @@ module.exports.DB ={
     HOST:process.env.DB_HOST,
     USERNAME:process.env.DB_USERNAME,
     PASSWORD:process.env.DB_PASSWORD,
-    PORT:process.env.DB_PORT
+    PORT:process.env.DB_PORT,
+    TYPE:process.env.DB_TYPE
 }

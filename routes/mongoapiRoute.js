@@ -1,6 +1,6 @@
 const express =require ('express')
 const app =express();
-const productRoute =require('./../src/sqlRoute/products/routes/productRoute')
+const productRoute =require('./../src/nosqlRoute/products/routes/productRoute')
 
 app.use('/products',productRoute)
 
