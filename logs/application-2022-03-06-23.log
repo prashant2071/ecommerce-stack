@@ -1,0 +1,35 @@
+{
+  input: 'mongodb://localhost:undefined',
+  code: 'ERR_INVALID_URL',
+  level: 'error'
+}
+{
+  input: 'mongodb://localhost:undefined',
+  code: 'ERR_INVALID_URL',
+  level: 'error'
+}
+{
+  input: 'mongodb://localhost:undefined',
+  code: 'ERR_INVALID_URL',
+  level: 'error'
+}
+{
+  input: 'mongodb://localhost:undefined',
+  code: 'ERR_INVALID_URL',
+  level: 'error'
+}
+{
+  input: 'mongodb://localhost:undefined',
+  code: 'ERR_INVALID_URL',
+  level: 'error'
+}
+{
+  input: 'mongodb://localhost:undefined',
+  code: 'ERR_INVALID_URL',
+  level: 'error'
+}
+{
+  input: 'mongodb://localhost:undefined',
+  code: 'ERR_INVALID_URL',
+  level: 'error'
+}

@@ -19,7 +19,7 @@ const sequelize =new Sequelize(DB.NAME,DB.USERNAME,DB.PASSWORD,{
 sequelize.sync().then(()=>{
     console.log('Database connected successfully ✅ ✅ ✅') //for emoji :check_mark
 }).catch((err)=>{
-    console.log('Database connection failed! ❌ ❌',err)  //for cross :x
+    console.error('Database connection failed! ❌ ❌',err)  //for cross :x
     logger.error("the error is database",err)
 })
 const products = require('../../src/sqlRoute/products/models/products')(sequelize,Sequelize) 

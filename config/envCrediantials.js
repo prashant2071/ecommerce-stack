@@ -10,3 +10,9 @@ module.exports.DB ={
     PORT:process.env.DB_PORT,
     TYPE:process.env.DB_TYPE
 }
+// module.exports.MONGODB ={
+//     PORT:process.env.DB_PORT,
+//     NAME:process.env.DB_NAME,
+//     HOST:process.env.DB_HOST,
+//     TYPE:process.env.DB_TYPE
+// }
