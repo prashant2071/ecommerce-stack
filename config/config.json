@@ -1,23 +1,24 @@
 {
   "development": {
-    "username": "prashant",
+    "username": "postgres",
     "password": "prashanta",
     "database": "ecommercesql",
-    "host": "PRASHANT",
-    "dialect": "mssql"
+    "host": "localhost",
+    "dialect": "postgres"
   },
   "test": {
-    "username": "prashant",
+    "username": "postgres",
     "password": "prashanta",
     "database": "ecommercesql",
-    "host": "PRASHANT",
-    "dialect": "mssql"
+    "host": "localhost",
+    "dialect": "postgres"
   },
   "production": {
-    "username": "prashant",
+    "username": "postgres",
     "password": "prashanta",
     "database": "ecommercesql",
-    "host": "PRASHANT",
-    "dialect": "mssql"
+    "host": "localhost",
+    "dialect": "postgres"
   }
 }
+
